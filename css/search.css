@@ -1,0 +1,105 @@
+.search {
+  background: #263545 url("../img/domainFon.png") center no-repeat;
+  color: #fff; }
+
+.search__row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 120px 20px; }
+
+.search__subtitle {
+  font-size: 16px;
+  margin-top: 23px;
+  margin-bottom: 25px; }
+
+.search__form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative; }
+
+.search__input {
+  height: 60px;
+  width: 570px;
+  border-radius: 50px 50px 50px 50px;
+  border: 1px solid #00AEEF;
+  font-size: 18px;
+  padding: 0 20px; }
+
+.search__button {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  left: 76%;
+  top: 8%;
+  background-image: -o-linear-gradient(45deg, #31aae2 0%, #9d35c0 100%);
+  background-image: linear-gradient(45deg, #31aae2 0%, #9d35c0 100%);
+  border-radius: 50px 50px 50px 50px;
+  position: absolute;
+  width: 130px;
+  height: 46px; }
+
+.search__checkboxes {
+  margin-top: 18px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.search__checkbox-item {
+  display: none; }
+
+.search__label {
+  font-size: 15px;
+  position: relative;
+  margin-right: 60px; }
+  .search__label:before {
+    content: '';
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: -30px;
+    border: 1px solid #00AEEF;
+    display: inline-block;
+    cursor: pointer; }
+  .search__label--last {
+    margin-right: 0; }
+
+.search__checkbox-item:checked + .search__label::before {
+  content: '';
+  background-size: 100%;
+  background-image: url("../img/check-solid.png");
+  background-repeat: no-repeat; }

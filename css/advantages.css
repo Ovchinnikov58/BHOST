@@ -1,0 +1,85 @@
+.advantages {
+  background-color: #F9F9F9; }
+
+.advantages-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 90px 20px; }
+
+.advantages__title {
+  margin-bottom: 22px; }
+
+.advantages__text {
+  max-width: 620px;
+  text-align: center; }
+
+.advantages__items {
+  margin-top: 56px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.advantages__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative; }
+  .advantages__item::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background: url(../img/verticalDots.png) center no-repeat;
+    right: 0;
+    top: 0; }
+  .advantages__item:last-child::after {
+    display: none; }
+
+.advantages__item-name {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 23px;
+  margin-bottom: 18px; }
+
+.advantages__img {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 auto;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto; }
+
+.advantages__item-desc {
+  text-align: center; }

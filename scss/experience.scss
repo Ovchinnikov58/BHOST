@@ -1,0 +1,72 @@
+.experience__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 89px 20px;
+}
+.experience__content {
+    flex: 0 1 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.experience__title {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.experience__text {
+    margin-top: 20px;
+}
+.experience__tariffs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.experience__item {
+    flex: 0 0 50%;
+    display: flex;
+    margin-top: 20px;
+}
+.experience__tariff-inf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14px;
+}
+.experience__tariff-name {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.experience__icon {
+    height: 56px;
+    width: 56px;
+    background-color: #1A1A2B;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &--purple {
+        background-color: #9655C7;
+    }
+    &--blue {
+        background-color: #00AEEF;
+    }
+    &--green {
+        background-color: #86C724;
+    }
+}
+.experience__photo{
+    flex: 0 1 50%;
+    max-width: 500px;
+}
+.experience__img{
+    width: 100%;
+}

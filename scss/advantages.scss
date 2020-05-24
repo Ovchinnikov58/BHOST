@@ -1,0 +1,53 @@
+.advantages {
+    background-color: #F9F9F9;
+}
+.advantages-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 20px;
+}
+.advantages__title {
+    margin-bottom: 22px;
+}
+.advantages__text {
+    max-width: 620px;
+    text-align: center;
+}
+.advantages__items {
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+.advantages__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 1px;
+        background: url(../img/verticalDots.png) center no-repeat;
+        right: 0;
+        top: 0;
+    }
+    &:last-child::after{
+        display: none;
+    }
+}
+.advantages__item-name {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 23px;
+    margin-bottom: 18px;
+}
+.advantages__img{
+     flex: 0 1 auto; 
+}
+.advantages__item-desc {
+    text-align: center;
+}

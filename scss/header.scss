@@ -1,0 +1,126 @@
+.header{
+    background: url('../img/headerFon.png') center no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    z-index: 0;
+    padding: 0 20px;   
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+}
+
+.header-top__links {
+    flex: 0 1 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.header__icon{
+    margin-right: 10px;
+}
+
+.header__button {
+    background-color: #fff;
+    color: #00AEEF;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    font-size: 12px;
+    &:hover{
+        background-color: #00AEEF;
+        color: #fff;
+    }
+    &--basket {
+        margin-right: 10px;
+    }
+}
+.header-bottom__link{
+    text-transform: uppercase;
+    &:hover{
+        color: #00AEEF;
+    }
+}
+
+.header-bottom__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header-bottom__navigation {
+    flex: 0 1 40%;
+}
+.header-bottom__menu {
+    display: flex;
+    justify-content: space-between;
+}
+.header-main__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 0;
+    justify-content: center;
+}
+.header-main__title {
+    display: block;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    font-weight: 700;
+}
+.header-main__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-main__social-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-main__terms {
+    flex: 0 0 40%;
+    display: flex;
+    flex-direction: column;
+}
+.header-main__terms-items{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 38px;
+}
+.header-main__term {
+    flex: 1 1 33%;
+    text-align: center;
+}
+.header-main__img {
+    margin-bottom: 20px;
+}
+.header-main__text {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.6;
+}
+.header-main__arrows{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-main__button-arrow{
+    height: 51px;
+    width: 51px;
+    border-radius: 2px;
+    margin-bottom: 1px;
+    background:rgba(#212121, 0.4);
+    color: #fff;
+    &:hover{
+        color: #00AEEF;
+        background:rgba(#212121, 0.2);
+    }
+}
